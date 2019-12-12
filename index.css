@@ -1,0 +1,139 @@
+html, body {
+  height: 100%;
+  position: relative;
+  /* border: 1px solid #ccc; */
+}
+
+body {
+  margin: 0;
+  /* display: inline-block; */
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top:50px;
+
+
+}
+
+.p5Canvas{
+  /* position: absolute; */
+  /* left: 50%;
+  transform: translate(-50%); */
+  /* justify-content: center; */
+  /* position: flex;
+  align-items: center; */
+}
+
+.btn{
+  position: absolute;
+  top:420px;
+  left: 50%;
+  transform: translate(-50%);
+  opacity:0;
+
+  -webkit-animation-name:show;
+  -webkit-animation-duration:3s;
+  -webkit-animation-delay:8s;
+   animation-fill-mode:forwards;
+}
+
+.trump{
+  position:absolute;
+  left:30%;
+  top:300px;
+  opacity:0;
+
+  -webkit-animation-name:show;
+  -webkit-animation-duration:3s;
+  -webkit-animation-delay:4.8s;
+   animation-fill-mode:forwards;
+
+}
+
+.election{
+  position:absolute;
+  left:70%;
+  top:100px;
+  opacity:0;
+
+  -webkit-animation-name:show;
+  -webkit-animation-duration:3s;
+  -webkit-animation-delay:4s;
+   animation-fill-mode:forwards;
+}
+
+.russia{
+  position:absolute;
+  left:40%;
+  top:150px;
+  opacity:0;
+
+  -webkit-animation-name:show;
+  -webkit-animation-duration:3s;
+  -webkit-animation-delay:1.6s;
+   animation-fill-mode:forwards;
+}
+
+.fb{
+  position:absolute;
+  left:20%;
+  top:100px;
+  opacity:0;
+
+  -webkit-animation-name:show;
+  -webkit-animation-duration:3s;
+  -webkit-animation-delay:0.8s;
+   animation-fill-mode:forwards;
+}
+
+
+
+.fk{
+  position:absolute;
+  left:25%;
+  top:175px;
+  font-size: 40px;
+  font-weight:900;
+  font-family: 'Calistoga', cursive;
+  opacity:0;
+
+  -webkit-animation-name:show;
+  -webkit-animation-duration:3s;
+  -webkit-animation-delay:6.5s;
+   animation-fill-mode:forwards;
+}
+
+.a{
+  position:absolute;
+  left:20%;
+  top:250px;
+  opacity:0;
+
+  -webkit-animation-name:show;
+  -webkit-animation-duration:3s;
+  -webkit-animation-delay:2.4s;
+   animation-fill-mode:forwards;
+}
+
+.b{
+  position:absolute;
+  left:60%;
+  top:270px;
+  opacity:0;
+
+  -webkit-animation-name:show;
+  -webkit-animation-duration:3s;
+  -webkit-animation-delay:3.2s;
+   animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes show {
+    from  {opacity: 0;}
+    to {opacity: 1;}
+}

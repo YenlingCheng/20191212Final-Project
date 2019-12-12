@@ -1,0 +1,74 @@
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+*{
+  font-family: 'Exo 2', sans-serif;
+}
+
+button{
+  width:200px;
+  background-color: #BFBDB8;
+  color: white;
+  text-align: center;
+  /* display: inline-block; */
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+}
+
+.button-event{
+  position:relative;
+  display:inline-block;
+  margin:20px;
+  margin-right:70px;
+  border-radius:30%;
+
+}
+
+＃regions_div{
+  display:inline-block;
+  margin:auto;
+}
+
+.button_container{
+  margin-top:100px;
+}
+
+h1{
+  font-family:'Patua One', cursive;
+}
+
+.lead{
+  font-family: 'Lato', sans-serif;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+}
+.jumbotron{
+  height:370px;
+}
+
+.go_back{
+  border-radius:3%;
+  display:inline-block;
+}

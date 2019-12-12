@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="test-extreme-map.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2|Lato|Patua+One&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript"></script>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="jumbotron">
+    <h1 class="display-4">Fake News Map</h1>
+    <p class="lead">This fake news map tries to show the extent of fake news dissemination in different countries</p>
+    <hr class="my-4">
+    <p>It uses the database from Varieties of Democracy and tracks different types of dissemination of fake news around the world.<br>
+      The color represents the dessemination extent of the fake news.<br> Countries with darker color means they diseeminate more fake news abroad and domestic more often.
+    </p>
+      <a href="test_landing_page.html" target="_blank"><button type="button" class="btn btn-outline-secondary">Back to Homepage</button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content" id="content_section">
+    <div class="container align-items-center">
+      <div class="row">
+        <div id="regions_div" style="width:800px;height:500px;text-align:center;" class="col-10"></div>
+        <div class="button_container col-2">
+          <div class="button-event">
+            <button id='1' onclick="f(1)">Government dissemination of false information abroad
+            </button>
+          </div>
+          <div class="button-event">
+            <button id='2' onclick='f(2)'>Government dissemination of false information domestic
+            </button>
+          </div>
+          <div class="button-event ">
+            <button id='3' onclick='f(3)'>Foreign government dissemination of false information
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="test-extreme-map.js">
+
+  </script>
+
+</body>
+
+</html>
